@@ -1,6 +1,13 @@
-set guioptions-=T " hide toolbar
-set lines=55 columns=100
+" Example Vim graphical configuration.
+" Copy to ~/.gvimrc or ~/_gvimrc.
 
-colorscheme railscasts
+set guifont=Inconsolata:h20            " Font family and font size.
+set antialias                     " MacVim: smooth fonts.
+set encoding=utf-8                " Use UTF-8 everywhere.
+set guioptions-=T                 " Hide toolbar.
+set background=light              " Background.
+set lines=25 columns=100          " Window dimensions.
 
-set guifont=DejaVu\ Sans\ Mono:h13
+set guioptions-=r                 " Don't show right scrollbar
+
+
