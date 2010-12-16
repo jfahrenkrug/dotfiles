@@ -10,6 +10,6 @@ set lines=25 columns=100          " Window dimensions.
 
 set guioptions-=r                 " Don't show right scrollbar
 
-"set guifont=:h14
+set guifont=Bitstream\ Vera\ Sans\ Mono:h12
 
 

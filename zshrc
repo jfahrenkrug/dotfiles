@@ -29,6 +29,6 @@ export NARWHAL_ENGINE=jsc
 export PATH="/usr/local/narwhal/bin:$PATH"
 
 export EDITOR="/usr/bin/vim"
-
+export CAPP_BUILD="/Users/johannes/Code/capp_build"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
