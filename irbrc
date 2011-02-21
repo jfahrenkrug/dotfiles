@@ -1,6 +1,10 @@
 #!/usr/bin/ruby
 require 'irb/completion'
-require 'irb/ext/save-history'
+begin
+  require 'irb/ext/save-history'
+rescue Exception => e
+  puts "Couldn't load irb/ext/save-history"
+end
 
 IRB.conf[:SAVE_HISTORY] = 1000
 IRB.conf[:HISTORY_FILE] = "#{ENV['HOME']}/.irb_history"
